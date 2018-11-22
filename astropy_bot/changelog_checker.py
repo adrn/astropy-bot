@@ -68,7 +68,7 @@ def check_changelog_consistency(pr_handler, repo_handler):
 
         else:
 
-            statuses['changelog'] = {'description': 'Changelog entry not present, (or pull request number '
+            statuses['changelog'] = {'description': 'Changelog entry not present, (or PR number '
                                      'missing) and neither the **Affects-dev** nor the '
                                      '**no-changelog-entry-needed** label are set',
                                      'state': 'failure'}
